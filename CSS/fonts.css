@@ -1,0 +1,41 @@
+@font-face
+{
+    font-family:juraLight;
+    src: url(../fonts/Jura-Light.ttf);
+}
+
+@font-face
+{
+    font-family:juraDemiBold;
+    src: url(../fonts/Jura-DemiBold.ttf);
+}
+
+@font-face
+{
+    font-family:juraMedium;
+    src: url(../fonts/Jura-Medium.ttf);
+}
+
+@font-face
+{
+    font-family:juraRegular;
+    src: url(../fonts/Jura-Regular.ttf);
+}
+
+@font-face
+{
+    font-family:wida;
+    src: url(../fonts/Wida.otf);
+}
+
+@font-face
+{
+    font-family:actor;
+    src: url(../fonts/Actor.ttf);
+}
+
+@font-face
+{
+    font-family:flamante;
+    src: url(../fonts/Flamante.ttf);
+}

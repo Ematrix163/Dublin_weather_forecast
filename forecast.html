@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DUBLIN WEATHER FORECAST</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/fonts.css">
+</head>
+
+<body>
+    <div class="intro">
+        <div class="inner">
+            <h1>INTRODUCTION</h1>
+            <p>This is a website that you can get the weather information from 19 Oct to 23 Oct in Dublin, Ireland. Please chose how many days that you want to display and click 'SUBMIT' button. Click each day's general condition will get the detailed information. </p>
+            <button class='buttonS1' onclick="window.scroll(0,800)">Lets's start!</button>
+        </div>
+    </div>
+    <div class="part_map">
+        <div id="map"></div>
+    </div>
+    <form>
+        <select id='selection' name='select'>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </form>
+    <button class='buttonS2' onclick="dayDisplay()" >SUBMIT</button>
+    <!-- Display the general weather condition next days the user chose -->
+    <div>
+        <div id="display">
+        </div>
+        <div id='detail'>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2017 by Chen Yiming, All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="./js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX75SY9rScfq-FAC-IyV2nqw0odLwfQVo&callback=myMap"></script>
+    <script type='text/javascript' src="./js/main.js"></script>
+</body>
+
+</html>
